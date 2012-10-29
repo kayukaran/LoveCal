@@ -1,0 +1,28 @@
+<resources>
+
+    <string name="app_name">Loveapp</string>
+    <string name="text_enterName">Your Name :</string>
+    <string name="text_enterDateofbirth">Enter Your DateOfBirth :</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main_page">Love Cal</string>
+    <string name="Button_name">Enter</string>
+    <string name="dialog_message">Need to Enter your name and partner name</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_secound_page">Love Cal</string>
+    <string name="yourName">Your Name          :</string>
+    <string name="yourpartnername">Partner Name     :</string>
+    <string name="partnername">Your Partner Name :</string>
+    <string name="button_Love">Check Your Love</string>
+    <string name="button_image">Check Message</string>
+    <string name="button_song">Check Your Romantic Place</string>
+    <string name="button_back">Check Another One </string>
+    <string name="title_activity_progrss">ProgrssActivi</string>
+    <string name ="alertbox_title_msg">Message from us </string>
+    <string name ="alertbox_title_percentage">Your Love Percentage </string>
+    <string name="follwme_button">Follow me</string>
+    <string name="follwme_button1">Facebook</string>
+    <string name="follwme_button2">Twitter</string>
+    <string name="slect_sex">Select your gender</string>
+    <string name="aboutlove"> " Love Never Fail,People Fail On Love "</string>
+
+</resources>

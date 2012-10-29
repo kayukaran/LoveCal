@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <color name="bg_menu">#8B008B</color>
+    <color name="bg_textview">#0000FF</color>
+    <color name="bg_edittext">#FAAFBA</color>
+    <color name="button_textcolor">#0000CD</color>
+    <color name="button_bg">#FF00FF</color>
+    <color name="message_textview">#7E354D</color>
+    <color name="message_output">#8A4117</color>
+    <color name="follow_text">#15317E</color>
+    <color name="txtmsg">#B93B8F</color>
+</resources>

@@ -1,0 +1,125 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg" >
+    
+    
+    
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/textMsg"
+        android:text="@string/yourName"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/message_textview"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="20dp"
+        android:text="@string/yourpartnername"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/message_textview"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textMsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/message_output"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/textView2"
+        android:contentDescription="@string/follwme_button1"
+        android:src="@drawable/facebook" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:layout_alignTop="@+id/imageButton1"
+        android:layout_toRightOf="@+id/imageButton1"
+        android:contentDescription="@string/follwme_button2"
+        android:src="@drawable/twiter" />
+
+    
+    
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/Button01"
+            style="@style/AppTheme"
+            android:layout_width="313dp"
+            android:layout_height="wrap_content"
+            android:text="@string/button_Love"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/Button02"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button_image"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/Button03"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button_song"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/Button04"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button_back"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageButton1"
+        android:layout_toLeftOf="@+id/imageButton1"
+        android:text="@string/follwme_button"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/follow_text"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/textMsg2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView2"
+       
+        android:layout_centerHorizontal="true"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/message_output"
+        android:textStyle="bold" />
+
+</RelativeLayout>

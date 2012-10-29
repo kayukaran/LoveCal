@@ -1,0 +1,113 @@
+
+ <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg" >
+ 
+ <ScrollView 
+     android:id="@+id/scrollView1"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content" >
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+    
+    
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="50dp"
+        android:text="@string/text_enterName"
+        android:textColor="@color/bg_textview"
+        android:textSize="24dp"
+        android:textStyle="bold|italic"
+        tools:context=".Mainpage" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="14dp"
+        android:background="@color/bg_edittext"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="36dp"
+        android:minWidth="100dp" >
+
+        <requestFocus android:layout_width="match_parent" />
+
+    </EditText>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/editText1"
+        android:layout_marginTop="50dp"
+        android:text="@string/partnername"
+        android:textColor="@color/bg_textview"
+        android:textSize="24dp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="20dp"
+        android:background="@color/bg_edittext"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="36dp"
+        android:minWidth="100dp" />
+
+    <Button
+        android:id="@+id/button1"
+        style="android:buttonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/editText2"
+        android:layout_below="@+id/editText2"
+        android:layout_marginTop="36dp"
+        android:minHeight="40dip"
+        android:minWidth="80dip"
+        android:text="@string/Button_name"
+        android:textColor="@color/button_textcolor"
+        android:textColorHint="@color/bg_menu"
+        android:textColorLink="@color/bg_edittext" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/button1"
+        android:layout_marginTop="40dp"
+        android:layout_toRightOf="@+id/textView3"
+        android:maxLines="@integer/lines"
+        android:text="@string/aboutlove"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/txtmsg"
+        android:textStyle="bold|italic" />
+
+</RelativeLayout>
+</ScrollView>
+</RelativeLayout>
